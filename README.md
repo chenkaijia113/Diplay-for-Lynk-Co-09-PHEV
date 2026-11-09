@@ -6,6 +6,12 @@
 
 [简体中文](README.md) · [繁體中文](README.zh-TW.md) · [本仓库发布页](https://github.com/chenkaijia113/Diplay-for-Lynk-Co-09-PHEV/releases) · [反馈问题](https://github.com/chenkaijia113/Diplay-for-Lynk-Co-09-PHEV/issues)
 
+## 下载 APK
+
+**[下载 V50 安装包 · 领克 09 PHEV 无线导航音质优化版](https://github.com/chenkaijia113/Diplay-for-Lynk-Co-09-PHEV/releases/download/v0.2.22-lynkco-stable.8/Apple-CarPlay-Lynk.Co-09.apk)** · [查看发布说明](https://github.com/chenkaijia113/Diplay-for-Lynk-Co-09-PHEV/releases/tag/v0.2.22-lynkco-stable.8)
+
+包内版本为 `0.2.22-lynkco-stable.8`，version code 为 `50`，约 18.18 MiB。安装到 Android 车机上。发布文件是维护者提供的 `Apple-CarPlay-Lynk&Co-09.apk`，GitHub 将文件名规范化为 `Apple-CarPlay-Lynk.Co-09.apk`，文件内容未变。
+
 ## 项目来源
 
 - **直接上游：** [DiPlay / shihabal3amri](https://github.com/shihabal3amri/DiPlay)，对比基线为 [`v0.2.22`](https://github.com/shihabal3amri/DiPlay/tree/v0.2.22)，提交 `28d6002ba00320f0ba745212160b08759e4f60b9`。
@@ -57,7 +63,7 @@ CarPlay 接收、USB / 无线连接、音视频处理、Siri、设置与诊断�
 
 应用安装在 **Android 车机** 上，手机端使用 iPhone。主应用模块为 `:mobile`；`:maphost` 是地图嵌入示例，`:home` 是可选启动器。
 
-当前仓库保存源码，未随初次上传发布 APK。上方的“本仓库发布页”仅指本项目发布入口；原作者的安装包不等同于这个领克分支的构建。
+已发布维护者提供的 V50 安装包，下载入口见上文。当前主分支源码中的构建版本仍为 `0.2.22-lynkco-stable.2` / code `44`；V50 对应源码尚待同步，不应将当前发布标签视为该 APK 的可重现构建。原作者的安装包不等同于本分支发布的安装包。
 
 构建要求：JDK 25、Android SDK Platform 37、Build-Tools 36.0.0、NDK 28.2.13676358。完整说明见 [构建文档](docs/BUILD.md)。
 
