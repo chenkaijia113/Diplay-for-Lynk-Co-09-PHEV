@@ -4,6 +4,12 @@
 
 [完整說明（簡體中文）](README.md) · [本專案發布頁](https://github.com/chenkaijia113/Diplay-for-Lynk-Co-09-PHEV/releases) · [回報問題](https://github.com/chenkaijia113/Diplay-for-Lynk-Co-09-PHEV/issues)
 
+## 下載 APK
+
+**[下載 V50 安裝包 · 領克 09 PHEV 無線導航音質優化版](https://github.com/chenkaijia113/Diplay-for-Lynk-Co-09-PHEV/releases/download/v0.2.22-lynkco-stable.8/Apple-CarPlay-Lynk.Co-09.apk)** · [發布說明](https://github.com/chenkaijia113/Diplay-for-Lynk-Co-09-PHEV/releases/tag/v0.2.22-lynkco-stable.8)
+
+版本 `0.2.22-lynkco-stable.8` / code `50`，約 18.18 MiB。這是維護者提供的安裝包；GitHub 將檔名中的 `&` 改為 `.`，內容未變。
+
 ## 來源與本分支的改動
 
 本專案由 [chenkaijia113](https://github.com/chenkaijia113) 基於 [shihabal3amri/DiPlay v0.2.22](https://github.com/shihabal3amri/DiPlay/tree/v0.2.22) 調整。底層接收實作來自 [shilapi/xcertplay](https://github.com/shilapi/xcertplay)，部分介面與網站沿用 [DiAuto](https://github.com/shihabal3amri/DiAuto)。CarPlay、USB / 無線連線、音視訊與診斷等主要能力屬於上游及社群成果。
@@ -28,7 +34,7 @@
 
 ## 建置與回報
 
-應用程式安裝在 Android 車機上。主應用程式模組是 `:mobile`，建置要求與外部認證素材配置請見[建置文件](docs/BUILD.md)。目前本倉庫未隨初次上傳發布 APK；上游安裝包不等同於本分支的建置。
+應用程式安裝在 Android 車機上。主應用程式模組是 `:mobile`，建置要求與外部認證素材配置請見[建置文件](docs/BUILD.md)。本倉庫已發布維護者提供的 V50 安裝包，下載入口見上方。主分支原始碼目前仍為 code `44`，V50 對應原始碼尚待同步，發布標籤不代表可重現此 APK 的建置。
 
 請在[本倉庫 Issues](https://github.com/chenkaijia113/Diplay-for-Lynk-Co-09-PHEV/issues)回報問題，附上車輛年式、車機韌體、iPhone / iOS、連線方式、應用程式版本及重現步驟。
 
